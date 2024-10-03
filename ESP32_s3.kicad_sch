@@ -5613,117 +5613,6 @@
 				)
 			)
 		)
-		(symbol "stm32f091-rescue:+5V-power"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "power_+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V-power_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "stm32f091-rescue:GND-power"
 			(power)
 			(pin_names
@@ -6057,6 +5946,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3992097c-202d-43c3-b251-937f7e49f08d")
+	)
+	(junction
+		(at 66.04 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bcdeb0a-d224-4df6-a8e4-bd155b31d1fa")
 	)
 	(junction
 		(at 95.25 149.86)
@@ -7680,6 +7575,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 74.93) (xy 66.04 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76350575-c1ac-42bc-931a-7057217b3755")
+	)
+	(wire
+		(pts
 			(xy 254 215.9) (xy 248.92 215.9)
 		)
 		(stroke
@@ -8940,6 +8845,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 76.2) (xy 66.04 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcdd7378-d821-4390-b7c9-feb8da1f0e99")
+	)
+	(wire
+		(pts
 			(xy 224.79 52.07) (xy 213.36 52.07)
 		)
 		(stroke
@@ -8947,6 +8862,16 @@
 			(type default)
 		)
 		(uuid "dd1e2954-6f1f-4376-84e2-0cdaeef79279")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.2) (xy 73.66 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd672bd5-d91f-4621-b24b-08e89248b130")
 	)
 	(wire
 		(pts
@@ -8967,6 +8892,16 @@
 			(type default)
 		)
 		(uuid "e1a6a958-1f08-4533-b7ed-9f119fbe31ec")
+	)
+	(wire
+		(pts
+			(xy 66.04 74.93) (xy 66.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1bc71ce-ceec-42e0-a4f6-fc668e48edcf")
 	)
 	(wire
 		(pts
@@ -9147,6 +9082,16 @@
 			(type default)
 		)
 		(uuid "f17e9dfd-0e84-4be1-8d6e-c21c77ea4567")
+	)
+	(wire
+		(pts
+			(xy 66.04 73.66) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1fd547b-857c-4f7e-9f5c-6c826d901ad9")
 	)
 	(wire
 		(pts
@@ -10144,6 +10089,28 @@
 		)
 		(uuid "fc660270-8945-433f-bda6-dfddc4385003")
 	)
+	(global_label "5V"
+		(shape input)
+		(at 63.5 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d29ab4a-11e3-4c49-afd8-1b6c17c29718")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.2167 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Vout"
 		(shape input)
 		(at 313.69 67.31 0)
@@ -10157,6 +10124,28 @@
 		(uuid "20e71d22-3154-4b64-a5da-ebc272b0ebe7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 320.7875 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 96.52 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47aba049-ad33-458d-b07f-40958bbc5fa2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.8033 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13601,71 +13590,6 @@
 		)
 	)
 	(symbol
-		(lib_id "stm32f091-rescue:+5V-power")
-		(at 96.52 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b8ddbb1-b913-45e1-9665-83bd25f06c02")
-		(property "Reference" "#PWR021"
-			(at 92.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 100.9142 49.911 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2764237e-478e-4531-a56b-4c7df187a270")
-		)
-		(instances
-			(project "ESP32_s3"
-				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 270.51 44.45 0)
 		(unit 1)
@@ -15151,6 +15075,76 @@
 			(project "ESP32_s3"
 				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 78.74 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad89f2a7-a7ef-4678-b40b-27516d72f443")
+		(property "Reference" "J13"
+			(at 80.01 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jetson Power Supply"
+			(at 80.264 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "01x02connector:CONN_61300211121_WRE"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9ce69d3-51a2-4790-96ca-e7b6788e3632")
+		)
+		(pin "2"
+			(uuid "a1a7628f-5f00-4bfe-b4ef-db82e906e582")
+		)
+		(instances
+			(project "ESP32_s3"
+				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
+					(reference "J13")
 					(unit 1)
 				)
 			)
