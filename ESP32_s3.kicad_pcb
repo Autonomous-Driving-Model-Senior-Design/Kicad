@@ -714,7 +714,7 @@
 	(footprint "1N5918:DO-41_STM"
 		(layer "F.Cu")
 		(uuid "0324a7ee-022f-496b-846a-4b828be57ecb")
-		(at 216.58 129.6405 90)
+		(at 217.04 150.1405 90)
 		(tags "1N5819 ")
 		(property "Reference" "D6"
 			(at 7.0739 0 90)
@@ -1697,7 +1697,7 @@
 	(footprint "1N5918:DO-41_STM"
 		(layer "F.Cu")
 		(uuid "0cb085f0-d0de-404b-b4ce-40f451f4f6de")
-		(at 227.58 129.1405 90)
+		(at 228.04 149.6405 90)
 		(tags "1N5819 ")
 		(property "Reference" "D2"
 			(at 7.0739 0 90)
@@ -3729,7 +3729,7 @@
 	(footprint "1N5918:DO-41_STM"
 		(layer "F.Cu")
 		(uuid "107f09c2-022b-46c2-b10d-cb07673ff7fe")
-		(at 227.58 108.6405 90)
+		(at 228.04 129.1405 90)
 		(tags "1N5819 ")
 		(property "Reference" "D3"
 			(at 7.0739 0 90)
@@ -8796,7 +8796,7 @@
 	(footprint "01x02connector:CONN_61300211121_WRE"
 		(layer "F.Cu")
 		(uuid "5a306daa-46fe-438d-8607-4c5b9c528c74")
-		(at 261 114)
+		(at 261.46 134.5)
 		(tags "61300211121 ")
 		(property "Reference" "J7"
 			(at 1.27 0 0)
@@ -9426,7 +9426,7 @@
 	(footprint "01x02connector:CONN_61300211121_WRE"
 		(layer "F.Cu")
 		(uuid "5e01c928-fe15-4e42-b4f8-6a0ef462c34b")
-		(at 259.96 95.5)
+		(at 260.42 116)
 		(tags "61300211121 ")
 		(property "Reference" "J12"
 			(at 1.27 0 0)
@@ -9941,7 +9941,7 @@
 	(footprint "1N5918:DO-41_STM"
 		(layer "F.Cu")
 		(uuid "600c423f-3f3e-40dc-a20d-67f1f3a37e02")
-		(at 222.08 129.735 90)
+		(at 222.54 150.235 90)
 		(tags "1N5819 ")
 		(property "Reference" "D4"
 			(at 7.0739 0 90)
@@ -10552,7 +10552,7 @@
 	(footprint "1N5918:DO-41_STM"
 		(layer "F.Cu")
 		(uuid "69a06b42-6008-4170-83e6-04b0bb781553")
-		(at 211.08 129.8828 90)
+		(at 211.54 150.3828 90)
 		(tags "1N5819 ")
 		(property "Reference" "D8"
 			(at 7.0739 0 90)
@@ -12065,7 +12065,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical"
 		(layer "F.Cu")
 		(uuid "780a0bed-c9d0-41ab-9de5-4176e7c4f1f8")
-		(at 238 104.34 -90)
+		(at 238.46 124.84 -90)
 		(descr "TO-220-15, Vertical, RM 1.27mm, staggered type-1, see http://www.st.com/resource/en/datasheet/l298.pdf")
 		(tags "TO-220-15 Vertical RM 1.27mm staggered type-1")
 		(property "Reference" "U3"
@@ -13738,7 +13738,7 @@
 	(footprint "GRM31CC80E227ME11L:CAPC3216X190N"
 		(layer "F.Cu")
 		(uuid "8e50a7a1-a503-4863-b171-c259421577be")
-		(at 232.58 100.235 90)
+		(at 233.04 120.735 90)
 		(property "Reference" "C7"
 			(at 3.079 0 180)
 			(layer "F.SilkS")
@@ -14791,7 +14791,7 @@
 	(footprint "01x02connector:CONN_61300211121_WRE"
 		(layer "F.Cu")
 		(uuid "95ae03d5-417e-48d2-b2cc-99981d5c145c")
-		(at 205 105.5 -90)
+		(at 205.46 126 -90)
 		(tags "61300211121 ")
 		(property "Reference" "J9"
 			(at 1.27 -2.0794 -90)
@@ -15851,7 +15851,7 @@
 	(footprint "1N5918:DO-41_STM"
 		(layer "F.Cu")
 		(uuid "aba143d6-399c-41e1-b878-aee382117211")
-		(at 216.58 108.8828 90)
+		(at 217.04 129.3828 90)
 		(tags "1N5819 ")
 		(property "Reference" "D7"
 			(at 7.0739 0 90)
@@ -16462,7 +16462,7 @@
 	(footprint "01x02connector:CONN_61300211121_WRE"
 		(layer "F.Cu")
 		(uuid "addc6c25-44ce-4d5d-bee8-7e0e3f8ef2e8")
-		(at 205 116 -90)
+		(at 205.46 136.5 -90)
 		(tags "61300211121 ")
 		(property "Reference" "J8"
 			(at 1.27 -2.4392 -90)
@@ -16720,7 +16720,7 @@
 	(footprint "01x02connector:CONN_61300211121_WRE"
 		(layer "F.Cu")
 		(uuid "b2651d8a-bc3e-4755-822e-9290458b2660")
-		(at 259.46 89.5)
+		(at 259.92 110)
 		(tags "61300211121 ")
 		(property "Reference" "J1"
 			(at 1.27 0 0)
@@ -18624,7 +18624,7 @@
 	(footprint "01x02connector:CONN_61300211121_WRE"
 		(layer "F.Cu")
 		(uuid "d89a99dc-2972-427b-a897-d7ebaaf3cf1c")
-		(at 260.5 107.5)
+		(at 260.96 128)
 		(tags "61300211121 ")
 		(property "Reference" "J3"
 			(at 1.27 0 0)
@@ -21198,7 +21198,7 @@
 	(footprint "1N5918:DO-41_STM"
 		(layer "F.Cu")
 		(uuid "f5a23ee7-7410-4e7a-acf9-dec300eed482")
-		(at 222.08 108.6405 90)
+		(at 222.54 129.1405 90)
 		(tags "1N5819 ")
 		(property "Reference" "D5"
 			(at 7.0739 0 90)
@@ -21809,7 +21809,7 @@
 	(footprint "1N5918:DO-41_STM"
 		(layer "F.Cu")
 		(uuid "f6a7e8fb-26a9-474b-ba01-62e1cc3879fc")
-		(at 211.08 108.8828 90)
+		(at 211.54 129.3828 90)
 		(tags "1N5819 ")
 		(property "Reference" "D9"
 			(at 7.0739 0 90)
