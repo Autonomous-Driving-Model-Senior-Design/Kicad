@@ -156,6 +156,8 @@
 	(net 74 "unconnected-(U3-SENSE_B-Pad15)")
 	(net 75 "unconnected-(U4-MODE-Pad13)")
 	(net 76 "5V")
+	(net 77 "Net-(LD2-K)")
+	(net 78 "Net-(LD3-K)")
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "01301d5b-4276-46db-ab3d-a3ee90930fce")
@@ -364,7 +366,7 @@
 			(size 0.975 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 2 "GND")
+			(net 77 "Net-(LD2-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "b1c08e11-6aa7-47a1-8aa6-13edbc466c4e")
@@ -1504,6 +1506,192 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "193a538d-0953-4faf-8731-9729fc101578")
+		)
+	)
+	(footprint "CRGCQ0805F220R:RESC2012X65N"
+		(layer "F.Cu")
+		(uuid "0c8d8c28-1ef6-4ac4-b525-0a677cbe1edb")
+		(at 131.065 81.526)
+		(property "Reference" "R7"
+			(at -0.44 -1.3 0)
+			(layer "F.SilkS")
+			(uuid "93cddc46-f89f-4812-a19c-57972c159cfd")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "16"
+			(at 1.31 1.3 0)
+			(layer "F.Fab")
+			(uuid "3952dc34-5681-438a-a963-357f46b277ab")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "CRGCQ0805F220R:RESC2012X65N"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3295d8ea-d4f9-4ea3-a361-5909c75c3aa9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aff97a3a-c4f0-4d57-8bcf-297dc1ebc639")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e12090f-bd4e-41fb-8446-c1bbe1e5af97")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/812b5193-2f39-4e1b-821b-53208e20edfa")
+		(sheetname "Root")
+		(sheetfile "ESP32_s3.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.12 -0.7)
+			(end 0.12 -0.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4fe38981-a569-489c-9497-ae493b2ceff2")
+		)
+		(fp_line
+			(start -0.12 0.7)
+			(end 0.12 0.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3485bfd9-efe4-401a-9abb-4bd8653c17b7")
+		)
+		(fp_line
+			(start -1.685 -0.962)
+			(end 1.685 -0.962)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "23e39928-4d81-4b2b-8361-8d9bede95ff6")
+		)
+		(fp_line
+			(start -1.685 0.962)
+			(end -1.685 -0.962)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "38addd6a-f3c1-4d6e-acf7-4db6ba582304")
+		)
+		(fp_line
+			(start -1.685 0.962)
+			(end 1.685 0.962)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "07e8c46c-79df-464b-9fc9-1391a1a45405")
+		)
+		(fp_line
+			(start 1.685 0.962)
+			(end 1.685 -0.962)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "77cbf8b7-cc5b-4b94-9224-c124281cd677")
+		)
+		(fp_line
+			(start -1.07 0.7)
+			(end -1.07 -0.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1d949221-7bbe-4e9f-b313-101353a38952")
+		)
+		(fp_line
+			(start 1.07 -0.7)
+			(end -1.07 -0.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cece9835-98b7-40d2-b697-a07788de7e34")
+		)
+		(fp_line
+			(start 1.07 0.7)
+			(end -1.07 0.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "900177c5-33d8-4136-be8a-9bde5b45e8ea")
+		)
+		(fp_line
+			(start 1.07 0.7)
+			(end 1.07 -0.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4b8def29-acfc-437c-9979-a1d27b98e7e7")
+		)
+		(pad "1" smd rect
+			(at -0.935 0)
+			(size 1 1.42)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 77 "Net-(LD2-K)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "df46e18b-fbc4-40f9-9c00-7ff746ffd22a")
+		)
+		(pad "2" smd rect
+			(at 0.935 0)
+			(size 1 1.42)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "798936e0-0372-4f30-9267-e7314be98b4d")
 		)
 	)
 	(footprint "1N5918:DO-41_STM"
@@ -3346,7 +3534,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "TXRX"
 			(at -8.968 1.0378 0)
 			(layer "F.Fab")
 			(uuid "676dd1d1-14a7-4c2d-98aa-e08b1f546f51")
@@ -4801,7 +4989,7 @@
 			(size 0.975 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 2 "GND")
+			(net 78 "Net-(LD3-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "3bd4ca7b-b2de-4f05-98bf-0aa7b6948f12")
@@ -9559,7 +9747,6 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/b221a463-53f1-48fe-ac86-155331dea99d")
 		(sheetname "Root")
 		(sheetfile "ESP32_s3.kicad_sch")
 		(attr through_hole)
@@ -15025,6 +15212,192 @@
 			(uuid "e023a01b-3c7b-4b04-8c11-a486edf4363e")
 		)
 	)
+	(footprint "CRGCQ0805F220R:RESC2012X65N"
+		(layer "F.Cu")
+		(uuid "a78c50bd-0636-48d9-94a1-b4170fc8c5fd")
+		(at 131.065 84.5)
+		(property "Reference" "R8"
+			(at -0.44 -1.3 0)
+			(layer "F.SilkS")
+			(uuid "4da69059-bb4c-4420-a948-8ffc378d8d83")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "16"
+			(at 1.31 1.3 0)
+			(layer "F.Fab")
+			(uuid "4920f14e-c463-49ba-9dea-341bf6b52f10")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "CRGCQ0805F220R:RESC2012X65N"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52e5f814-d431-4816-9256-12d00534227f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c3a92f1-2db9-45f4-a9ba-8f8d94ce45a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db228f07-8ab6-4db4-beef-1dd14c50af1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/d490af2b-60c6-4486-b340-246e0a3f1e99")
+		(sheetname "Root")
+		(sheetfile "ESP32_s3.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.12 -0.7)
+			(end 0.12 -0.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc6023b7-8996-41b1-a801-4410a9975029")
+		)
+		(fp_line
+			(start -0.12 0.7)
+			(end 0.12 0.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8c535e23-a7c9-41c3-9e3b-1d8ff70b914e")
+		)
+		(fp_line
+			(start -1.685 -0.962)
+			(end 1.685 -0.962)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "10b2a5c2-fbc6-4ba8-9467-42f8a30dc4fe")
+		)
+		(fp_line
+			(start -1.685 0.962)
+			(end -1.685 -0.962)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dc84503c-eee9-4451-ba33-7d858f4134e8")
+		)
+		(fp_line
+			(start -1.685 0.962)
+			(end 1.685 0.962)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1a388596-8106-408a-a9d7-d63a14065fab")
+		)
+		(fp_line
+			(start 1.685 0.962)
+			(end 1.685 -0.962)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4bb83fd9-d46f-4027-b29c-b7a57a3a88dc")
+		)
+		(fp_line
+			(start -1.07 0.7)
+			(end -1.07 -0.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f14e28ac-3355-4727-85cc-0fde2f01d53a")
+		)
+		(fp_line
+			(start 1.07 -0.7)
+			(end -1.07 -0.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0dedd929-2e54-4456-b2e1-4ef5cca7a2ff")
+		)
+		(fp_line
+			(start 1.07 0.7)
+			(end -1.07 0.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "326fd371-ae46-4f09-b96c-fa1e798449a7")
+		)
+		(fp_line
+			(start 1.07 0.7)
+			(end 1.07 -0.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "841ae23e-3e58-4670-a72b-9e43372a4ef1")
+		)
+		(pad "1" smd rect
+			(at -0.935 0)
+			(size 1 1.42)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 78 "Net-(LD3-K)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "f90dab84-dc9c-461d-b67b-8ec781a07ec3")
+		)
+		(pad "2" smd rect
+			(at 0.935 0)
+			(size 1 1.42)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "6b4e4ec4-c99f-46e2-b4ae-df54e7766a6e")
+		)
+	)
 	(footprint "61300311121:61300311121"
 		(layer "F.Cu")
 		(uuid "a7f9f837-8b11-401f-a79e-e7b0538abcfd")
@@ -17497,7 +17870,6 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/ce3bc354-b91e-4d5a-a0e2-3b4118841c91")
 		(sheetname "Root")
 		(sheetfile "ESP32_s3.kicad_sch")
 		(attr through_hole)
@@ -17705,7 +18077,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "TXRX2"
 			(at -8.968 1.0378 0)
 			(layer "F.Fab")
 			(uuid "019ce558-cc4d-439b-81bf-8e56e00b8d41")
