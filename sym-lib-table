@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USB-C")(type "KiCad")(uri "${KIPRJMOD}/USB-C.kicad_sym")(options "")(descr ""))
+)
