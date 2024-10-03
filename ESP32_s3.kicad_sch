@@ -6026,6 +6026,12 @@
 		(uuid "67d38125-7cd3-4be3-9603-5fddc1b74fc6")
 	)
 	(junction
+		(at 361.95 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68385b92-67fb-4a3f-af5f-9f614674faee")
+	)
+	(junction
 		(at 289.56 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6222,6 +6228,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd53ee38-99f6-4658-ada8-33bfb29055ff")
+	)
+	(junction
+		(at 361.95 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfd2faed-62cf-475b-8b8c-4f81a8163bad")
 	)
 	(junction
 		(at 204.47 97.79)
@@ -7105,16 +7117,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 60.96) (xy 361.95 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "462d76bf-8447-45c9-b60a-b72ed096444d")
-	)
-	(wire
-		(pts
 			(xy 369.57 224.79) (xy 364.49 224.79)
 		)
 		(stroke
@@ -7335,6 +7337,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 59.69) (xy 361.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ccb5166-8809-4d33-a0d5-da49e751780b")
+	)
+	(wire
+		(pts
 			(xy 224.79 36.83) (xy 213.36 36.83)
 		)
 		(stroke
@@ -7382,6 +7394,16 @@
 			(type default)
 		)
 		(uuid "60dc1869-e9fc-40ee-b0c2-45131c0d57c2")
+	)
+	(wire
+		(pts
+			(xy 361.95 35.56) (xy 361.95 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61bdf60f-cccf-4269-9f6a-727bc4687878")
 	)
 	(wire
 		(pts
@@ -8225,6 +8247,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 60.96) (xy 370.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f77d5c-c3cb-4e6d-a186-9feec140c5cb")
+	)
+	(wire
+		(pts
 			(xy 58.42 226.06) (xy 66.04 226.06)
 		)
 		(stroke
@@ -8465,16 +8497,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 60.96) (xy 374.65 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bed8b1f7-6918-4fed-ad6e-313d360a894c")
-	)
-	(wire
-		(pts
 			(xy 80.01 49.53) (xy 68.58 49.53)
 		)
 		(stroke
@@ -8565,6 +8587,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 60.96) (xy 358.14 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d5c1bd-b616-41be-9f78-88c46c529e5f")
+	)
+	(wire
+		(pts
 			(xy 359.41 208.28) (xy 350.52 208.28)
 		)
 		(stroke
@@ -8622,6 +8654,16 @@
 			(type default)
 		)
 		(uuid "c97142f7-7094-4022-a167-64ed7e9bba17")
+	)
+	(wire
+		(pts
+			(xy 361.95 36.83) (xy 372.11 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacb0913-c53a-42fb-9c1d-f94284b50086")
 	)
 	(wire
 		(pts
@@ -9125,16 +9167,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 36.83) (xy 374.65 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f79d35d6-8f35-4c7a-a070-b151c83021b0")
-	)
-	(wire
-		(pts
 			(xy 275.59 67.31) (xy 260.35 67.31)
 		)
 		(stroke
@@ -9577,7 +9609,7 @@
 		(uuid "274dbda3-cb81-46c7-82e0-67866eb72392")
 	)
 	(label "EN"
-		(at 372.11 36.83 0)
+		(at 369.57 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9731,7 +9763,7 @@
 		(uuid "91d0b158-5770-4ca3-99fe-bf3cbaf5226b")
 	)
 	(label "GPIO0"
-		(at 372.11 60.96 0)
+		(at 370.84 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10970,7 +11002,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 365.76 36.83 90)
+		(at 361.95 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10979,23 +11011,25 @@
 		(fields_autoplaced yes)
 		(uuid "1eacab87-9de9-4aaf-9ae3-d9117c157be8")
 		(property "Reference" "R10"
-			(at 365.76 30.48 90)
+			(at 364.49 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "0"
-			(at 365.76 33.02 90)
+		(property "Value" "10k"
+			(at 364.49 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "RMCF1206ZR0R00:RESC3216X70N"
-			(at 366.014 35.814 90)
+		(property "Footprint" "CRCW080535K7FKEA:RESC2012X50N"
+			(at 360.934 31.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +11038,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 365.76 36.83 0)
+			(at 361.95 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11013,7 +11047,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 365.76 36.83 0)
+			(at 361.95 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12328,7 +12362,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 365.76 60.96 90)
+		(at 361.95 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12337,23 +12371,25 @@
 		(fields_autoplaced yes)
 		(uuid "46c35946-770a-43b1-8825-d2aa7a9ec082")
 		(property "Reference" "R4"
-			(at 365.76 54.61 90)
+			(at 364.49 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "0"
-			(at 365.76 57.15 90)
+		(property "Value" "10k"
+			(at 364.49 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "RMCF1206ZR0R00:RESC3216X70N"
-			(at 366.014 59.944 90)
+		(property "Footprint" "CRCW080535K7FKEA:RESC2012X50N"
+			(at 360.934 55.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12362,7 +12398,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 365.76 60.96 0)
+			(at 361.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12371,7 +12407,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 365.76 60.96 0)
+			(at 361.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13011,16 +13047,15 @@
 	(symbol
 		(lib_name "+3.3V_2")
 		(lib_id "power:+3.3V")
-		(at 358.14 36.83 0)
+		(at 361.95 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a256c8d-c068-4e4e-84b3-a5f01348c0cd")
 		(property "Reference" "#PWR028"
-			(at 358.14 40.64 0)
+			(at 361.95 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13029,7 +13064,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 358.14 31.75 0)
+			(at 361.95 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13037,7 +13072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 36.83 0)
+			(at 361.95 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13046,7 +13081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 36.83 0)
+			(at 361.95 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13055,7 +13090,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 358.14 36.83 0)
+			(at 361.95 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14133,7 +14168,7 @@
 	(symbol
 		(lib_name "+3.3V_2")
 		(lib_id "power:+3.3V")
-		(at 358.14 60.96 0)
+		(at 361.95 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14142,7 +14177,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a81fb36-2ecd-4879-bc89-603f1a659699")
 		(property "Reference" "#PWR027"
-			(at 358.14 64.77 0)
+			(at 361.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14151,7 +14186,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 358.14 55.88 0)
+			(at 361.95 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14159,7 +14194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 60.96 0)
+			(at 361.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14168,7 +14203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 60.96 0)
+			(at 361.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,7 +14212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 358.14 60.96 0)
+			(at 361.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
