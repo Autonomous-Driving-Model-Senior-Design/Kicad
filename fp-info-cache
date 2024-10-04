@@ -1,4 +1,25 @@
-23890302950639929
+23941651124299722
+1N5918
+DO-41_STM
+
+1N5819 
+0
+2
+2
+01x02connector
+CONN_61300211121_WRE
+
+61300211121 
+0
+2
+2
+25YXJ220M6(capacitor)
+CAP_YX_6P3X11_RUB
+
+25YXJ220M6.3X11 
+0
+2
+2
 08053C104JAZ2A
 CAPC2012X94N
 
@@ -20,6 +41,13 @@ CAPC2012X94N
 0
 2
 2
+61300311121
+61300311121
+<B>WR-PHD </B><BR> 2.54mm Pin Header, 3 Pin
+
+0
+3
+3
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -48,6 +76,13 @@ BRC2012T4R7MD
 0
 2
 2
+BarrelJack
+CUI_PJ-040DH
+
+
+0
+3
+3
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -2414,6 +2449,27 @@ SW PUSH SMALL Tactile C&K
 0
 4
 2
+Button_Switch_THT
+SW_XKB_DM1-16UC-1
+1A 30V SPDT Micro Switch rated for one million cycles, W12.7xD5.7xH6.6, https://www.helloxkb.com/public/images/pdf/DMX-XXXC-X.pdf
+SPDT endstop limit switch clockwise hook lever XKB DM1-16UC-1
+0
+3
+3
+Button_Switch_THT
+SW_XKB_DM1-16UD-1
+1A 30V SPDT Micro Switch rated for one million cycles, W12.7xD5.7xH6.6, https://www.helloxkb.com/public/images/pdf/DMX-XXXD-X.pdf
+SPDT endstop limit switch anti-clockwise hook lever XKB DM1-16UD-1
+0
+3
+3
+Button_Switch_THT
+SW_XKB_DM1-16UP-1
+1A 30V SPDT Micro Switch rated for one million cycles, W12.7xD5.7xH6.6, https://www.helloxkb.com/public/images/pdf/DMX-XXXP-X.pdf
+SPDT endstop limit switch vertical hook lever XKB DM1-16UP-1
+0
+3
+3
 Buzzer_Beeper
 Buzzer_12x9.5RM7.6
 Generic Buzzer, D12mm height 9.5mm with RM7.6mm
@@ -2631,6 +2687,13 @@ CAPC2012X88N
 0
 2
 2
+C1206X104J3REC7210
+CAPC3316X140N
+
+
+0
+2
+2
 C2012C0G1E223J125AA
 CAPC2012X145N
 
@@ -2638,8 +2701,43 @@ CAPC2012X145N
 0
 2
 2
+CC1206JKNPODBN120
+CAP_CC1206_YAG
+
+CC1206JKNPODBN120 
+0
+2
+2
+CC1206JKNPODBN120
+CAP_CC1206_YAG-L
+
+CC1206JKNPODBN120 
+0
+2
+2
+CC1206JKNPODBN120
+CAP_CC1206_YAG-M
+
+CC1206JKNPODBN120 
+0
+2
+2
+CFR_25JB_52_1K
+YAG_CFR25_YAG
+
+CFR-25JB-52-1K 
+0
+2
+2
 CGA4C2C0G1H472J060AA
 CAPC2012X75N
+
+
+0
+2
+2
+CL21A226KQCLRNC
+CAPC2012X135N
 
 
 0
@@ -2663,6 +2761,13 @@ CL21C821JBCNNNC
 CAP_CL21_SAM-M
 
 CL21C821JBCNNNC 
+0
+2
+2
+CL31A107MQHNNNE
+CAPC3216X180N
+
+
 0
 2
 2
@@ -6607,6 +6712,13 @@ capacitor tantalum
 0
 2
 2
+Conn_01x03
+CONN03_6130_7P62X2P54_WRE
+
+61300311121 
+0
+3
+3
 Connector
 Banana_Cliff_FCR7350B_S16N-PC_Horizontal
 Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, black, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
@@ -8753,6 +8865,13 @@ Connector_Coaxial
 SMA_Amphenol_132291_Vertical
 https://www.amphenolrf.com/downloads/dl/file/id/3222/product/2918/132291_customer_drawing.pdf
 SMA THT Female Jack Vertical Bulkhead
+0
+5
+2
+Connector_Coaxial
+SMA_BAT_Wireless_BWSMA-KWE-Z001
+BAT Wireless BWSMA-KWE-Z00 https://www.lcsc.com/datasheet/lcsc_datasheet_2310171703_BAT-WIRELESS-BWSMA-KWE-Z001_C496551.pdf
+SMA THT Female Jack Horizontal
 0
 5
 2
@@ -48677,258 +48796,6 @@ conn samtec discrete wire terminal
 0
 22
 21
-Connector_Samtec_MicroPower
-Samtec_UMPS-02-XX.X-X-V-S-W_1x02-1MP_P2.0mm_Socket_WeldTab
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-10
-3
-Connector_Samtec_MicroPower
-Samtec_UMPS-02-XX.X-X-V-S_1x02_P2.0mm_Socket
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-2
-2
-Connector_Samtec_MicroPower
-Samtec_UMPS-03-XX.X-X-V-S-W_1x03-1MP_P2.0mm_Socket_WeldTab
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-11
-4
-Connector_Samtec_MicroPower
-Samtec_UMPS-03-XX.X-X-V-S_1x03_P2.0mm_Socket
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-3
-3
-Connector_Samtec_MicroPower
-Samtec_UMPS-04-XX.X-X-V-S-W_1x04-1MP_P2.0mm_Socket_WeldTab
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-12
-5
-Connector_Samtec_MicroPower
-Samtec_UMPS-04-XX.X-X-V-S_1x04_P2.0mm_Socket
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-4
-4
-Connector_Samtec_MicroPower
-Samtec_UMPS-05-XX.X-X-V-S-W_1x05-1MP_P2.0mm_Socket_WeldTab
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-13
-6
-Connector_Samtec_MicroPower
-Samtec_UMPS-05-XX.X-X-V-S_1x05_P2.0mm_Socket
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-5
-5
-Connector_Samtec_MicroPower
-Samtec_UMPS-06-XX.X-X-V-S-W_1x06-1MP_P2.0mm_Socket_WeldTab
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-14
-7
-Connector_Samtec_MicroPower
-Samtec_UMPS-06-XX.X-X-V-S_1x06_P2.0mm_Socket
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-6
-6
-Connector_Samtec_MicroPower
-Samtec_UMPS-07-XX.X-X-V-S-W_1x07-1MP_P2.0mm_Socket_WeldTab
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-15
-8
-Connector_Samtec_MicroPower
-Samtec_UMPS-07-XX.X-X-V-S_1x07_P2.0mm_Socket
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-7
-7
-Connector_Samtec_MicroPower
-Samtec_UMPS-08-XX.X-X-V-S-W_1x08-1MP_P2.0mm_Socket_WeldTab
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-16
-9
-Connector_Samtec_MicroPower
-Samtec_UMPS-08-XX.X-X-V-S_1x08_P2.0mm_Socket
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-8
-8
-Connector_Samtec_MicroPower
-Samtec_UMPS-09-XX.X-X-V-S-W_1x09-1MP_P2.0mm_Socket_WeldTab
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-17
-10
-Connector_Samtec_MicroPower
-Samtec_UMPS-09-XX.X-X-V-S_1x09_P2.0mm_Socket
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-9
-9
-Connector_Samtec_MicroPower
-Samtec_UMPS-10-XX.X-X-V-S-W_1x10-1MP_P2.0mm_Socket_WeldTab
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-18
-11
-Connector_Samtec_MicroPower
-Samtec_UMPS-10-XX.X-X-V-S_1x10_P2.0mm_Socket
-2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power socket
-0
-10
-10
-Connector_Samtec_MicroPower
-Samtec_UMPT-02-XX.X-X-V-S-W_1x02-1MP_P2.0mm_Terminal_WeldTab
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-10
-3
-Connector_Samtec_MicroPower
-Samtec_UMPT-02-XX.X-X-V-S_1x02_P2.0mm_Terminal
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-2
-2
-Connector_Samtec_MicroPower
-Samtec_UMPT-03-XX.X-X-V-S-W_1x03-1MP_P2.0mm_Terminal_WeldTab
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-11
-4
-Connector_Samtec_MicroPower
-Samtec_UMPT-03-XX.X-X-V-S_1x03_P2.0mm_Terminal
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-3
-3
-Connector_Samtec_MicroPower
-Samtec_UMPT-04-XX.X-X-V-S-W_1x04-1MP_P2.0mm_Terminal_WeldTab
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-12
-5
-Connector_Samtec_MicroPower
-Samtec_UMPT-04-XX.X-X-V-S_1x04_P2.0mm_Terminal
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-4
-4
-Connector_Samtec_MicroPower
-Samtec_UMPT-05-XX.X-X-V-S-W_1x05-1MP_P2.0mm_Terminal_WeldTab
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-13
-6
-Connector_Samtec_MicroPower
-Samtec_UMPT-05-XX.X-X-V-S_1x05_P2.0mm_Terminal
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-5
-5
-Connector_Samtec_MicroPower
-Samtec_UMPT-06-XX.X-X-V-S-W_1x06-1MP_P2.0mm_Terminal_WeldTab
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-14
-7
-Connector_Samtec_MicroPower
-Samtec_UMPT-06-XX.X-X-V-S_1x06_P2.0mm_Terminal
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-6
-6
-Connector_Samtec_MicroPower
-Samtec_UMPT-07-XX.X-X-V-S-W_1x07-1MP_P2.0mm_Terminal_WeldTab
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-15
-8
-Connector_Samtec_MicroPower
-Samtec_UMPT-07-XX.X-X-V-S_1x07_P2.0mm_Terminal
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-7
-7
-Connector_Samtec_MicroPower
-Samtec_UMPT-08-XX.X-X-V-S-W_1x08-1MP_P2.0mm_Terminal_WeldTab
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-16
-9
-Connector_Samtec_MicroPower
-Samtec_UMPT-08-XX.X-X-V-S_1x08_P2.0mm_Terminal
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-8
-8
-Connector_Samtec_MicroPower
-Samtec_UMPT-09-XX.X-X-V-S-W_1x09-1MP_P2.0mm_Terminal_WeldTab
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-17
-10
-Connector_Samtec_MicroPower
-Samtec_UMPT-09-XX.X-X-V-S_1x09_P2.0mm_Terminal
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-9
-9
-Connector_Samtec_MicroPower
-Samtec_UMPT-10-XX.X-X-V-S-W_1x10-1MP_P2.0mm_Terminal_WeldTab
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-18
-11
-Connector_Samtec_MicroPower
-Samtec_UMPT-10-XX.X-X-V-S_1x10_P2.0mm_Terminal
-2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
-conn samtec ultra-mirco-power terminal
-0
-10
-10
 Connector_Stocko
 Stocko_MKS_1651-6-0-202_1x2_P2.50mm_Vertical
 Stocko MKS 16xx series connector, (https://www.stocko-contact.com/downloads/steckverbindersystem-raster-2,5-mm.pdf#page=15), generated with kicad-footprint-generator
@@ -49889,8 +49756,15 @@ USB Micro-B horizontal SMD
 11
 6
 Connector_USB
+USB_Micro-B_Amphenol_10118194-0001LF_Horizontal
+USB Micro-B receptacle, horizontal, SMD, 10118194, 10118194-0001LF, 10118194-0002LF, 10118194-0101LF, 10118194-1001LF, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf
+USB Micro B horizontal SMD
+0
+17
+6
+Connector_USB
 USB_Micro-B_Amphenol_10118194_Horizontal
-USB Micro-B receptacle, horizontal, SMD, 10118194, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf
+USB Micro-B receptacle, horizontal, SMD, 10118194, 10118194-0011LF, 10118194-0012LF, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf
 USB Micro B horizontal SMD
 0
 17
@@ -50007,69 +49881,6 @@ Mini USB 2.0 Type B
 0
 9
 6
-Connector_Video
-DVI-D_Molex_74320-4004_Horizontal
-DVI-D Dual Link connector, horizontal, 24 pins, Molex P/N 74320-4004, https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/743/74320/743204004_sd.pdf?inline
-dvi right angle
-0
-26
-25
-Connector_Video
-DVI-I_Molex_74320-1004_Horizontal
-DVI-I Dual Link connector, horizontal, 29 pins, Molex P/N 74320-1004, https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/743/74320/743201004_sd.pdf?inline
-dvi right angle
-0
-32
-30
-Connector_Video
-HDMI_A_Amphenol_10029449-x01xLF_Horizontal
-HDMI Type A connector, Amphenol 10029449-001TLF 10029449-001RLF 10029449-101TLF 10029449-101RLF, Right Angle(https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10029449.pdf)
-hdmi right angle
-0
-23
-20
-Connector_Video
-HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal
-HDMI Contact Technology Type A http://www.contactswitch.com/en/download.aspx?id=1449
-HDMI Contact Technology Type A
-0
-23
-20
-Connector_Video
-HDMI_A_Kycon_KDMIX-SL1-NS-WS-B15_VerticalRightAngle
-HDMI, Type A, Kycon KDMIX-SL1-NS-WS-B15, Vertical Right Angle, http://www.kycon.com/Pub_Eng_Draw/KDMIX-SL1-NS-WS-B15.pdf
-hdmi type a
-0
-23
-20
-Connector_Video
-HDMI_A_Molex_208658-1001_Horizontal
-HDMI Molex Type A https://www.molex.com/pdm_docs/sd/2086581001_sd.pdf
-HDMI Molex Type A
-0
-23
-20
-Connector_Video
-HDMI_Micro-D_Molex_46765-0x01
-HDMI, Micro, Type D, SMD, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
-hdmi micro type d right angle smd
-0
-23
-20
-Connector_Video
-HDMI_Micro-D_Molex_46765-1x01
-HDMI, Micro, Type D, THT, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
-hdmi micro type d right angle tht
-0
-23
-20
-Connector_Video
-HDMI_Micro-D_Molex_46765-2x0x
-HDMI, Micro, Type D, THT/SMD hybrid, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
-hdmi micro type d right angle tht smd hybrid 
-0
-23
-20
 Connector_Wago
 Wago_734-132_1x02_P3.50mm_Vertical
 Molex 734 Male header (for PCBs); Straight solder pin 1 x 1 mm, 734-132 , 2 Pins (http://www.farnell.com/datasheets/2157639.pdf), generated with kicad-footprint-generator
@@ -52832,6 +52643,13 @@ Converter_ACDC
 Converter_ACDC_Recom_RAC20-xxSK_THT
 Recom RAC20-xxSK https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf#page=6 Rev. 6/2020
 Recom RAC20-xxSK
+0
+4
+4
+Converter_ACDC
+Converter_ACDC_TRACO_TMF_051xx_THT
+ACDC-Converter, TRACO, TMF 051xx, 5W, Rev. August 26. 2024 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tmf05.pdf)
+ACDC-Converter TRACO TMF05 THT 5W
 0
 4
 4
@@ -56874,6 +56692,13 @@ RES_ERJ6ENF6043V
 0
 2
 2
+ESP32_S3_WROOM
+ESP32-S3-WROOM-1_EXP
+
+ESP32-S3-WROOM-1-N8R2 
+0
+49
+49
 FSV360FP
 SOD-123EP_425AC_ONS
 
@@ -57940,6 +57765,13 @@ CAPC2012X145N
 2
 GRM21BR61E106MA73L
 CAPC2012X140N
+
+
+0
+2
+2
+GRM31CC80E227ME11L
+CAPC3216X190N
 
 
 0
@@ -59473,91 +59305,91 @@ Inductor xal
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-102
-Inductor, Coilcraft, XAL7030-102, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-102, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-103
-Inductor, Coilcraft, XAL7030-103, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-103, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-152
-Inductor, Coilcraft, XAL7030-152, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-152, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-161
-Inductor, Coilcraft, XAL7030-161, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-161, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-222
-Inductor, Coilcraft, XAL7030-222, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-222, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-272
-Inductor, Coilcraft, XAL7030-272, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-272, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-301
-Inductor, Coilcraft, XAL7030-301, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-301, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-332
-Inductor, Coilcraft, XAL7030-332, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-332, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-472
-Inductor, Coilcraft, XAL7030-472, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-472, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-562
-Inductor, Coilcraft, XAL7030-562, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-562, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-601
-Inductor, Coilcraft, XAL7030-601, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-601, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-682
-Inductor, Coilcraft, XAL7030-682, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-682, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-822
-Inductor, Coilcraft, XAL7030-822, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-822, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
@@ -63748,6 +63580,13 @@ solder jumper open
 0
 5
 3
+L298N
+TO127P2020X500X2100-15
+
+
+0
+15
+15
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -64945,8 +64784,29 @@ Yellow 5381 Series LED
 0
 2
 2
+LM1117T-ADJ
+TO254P1054X470X1955-3
+
+
+0
+3
+3
+LM5155DSSR
+IC_LM5155DSSR
+
+
+0
+16
+16
 LMK212B7105KG-T
 CAPC2012X135N
+
+
+0
+2
+2
+LQW2BAN24NG00L
+INDC2015X152N
 
 
 0
@@ -68788,6 +68648,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PH1-010UA
+ADAM-TECH_PH1-01-UA
+
+
+0
+1
+1
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
 Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54
@@ -69663,6 +69530,13 @@ BGA 113 0.5
 0
 113
 113
+Package_BGA
+Texas_PicoStar_BGA-4_0.758x0.758mm_Layout2x2_P0.4mm
+Texas Instruments PicoStar - 0.15 mm max height, 0.758x0.758mm, 4 Ball, 2x2 Layout, 0.4mm Pitch, https://www.ti.com/lit/ds/symlink/tmp114.pdf
+BGA 4 0.4 PicoStar
+0
+4
+4
 Package_BGA
 Texas_YFP0020_DSBGA-20_1.56x1.96mm_Layout4x5_P0.4mm
 Texas Instruments, YFP0020, DSBGA-20, area grid, 1.588x1.988mm, 20 Ball, 4x5 Layout, 0.4mm Pitch, https://www.ti.com/lit/ds/symlink/txs0206.pdf
@@ -72884,6 +72758,13 @@ QFN NoLead
 43
 29
 Package_DFN_QFN
+QFN-28-1EP_4x4mm_P0.45mm_EP2.6x2.6mm
+QFN, 28 Pin (http://www.everest-semi.com/pdf/ES8388%20DS.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+33
+29
+Package_DFN_QFN
 QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm
 QFN, 28 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/3555fe.pdf#page=32), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
@@ -73460,6 +73341,20 @@ QFN NoLead
 Package_DFN_QFN
 QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias
 QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+91
+49
+Package_DFN_QFN
+QFN-48-1EP_7x7mm_P0.5mm_EP5.7x5.7mm
+QFN, 48 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_48_05-08-1704.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+65
+49
+Package_DFN_QFN
+QFN-48-1EP_7x7mm_P0.5mm_EP5.7x5.7mm_ThermalVias
+QFN, 48 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_48_05-08-1704.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 91
@@ -80444,6 +80339,13 @@ SSO Stretched SO SOIC Pitch 1.27
 8
 8
 Package_SO
+SSOP-4_4.4x2.6mm_P1.27mm
+SSOP, 4 Pin (https://www.vishay.com/docs/83465/vos618a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SSOP SO
+0
+4
+4
+Package_SO
 SSOP-8_2.95x2.8mm_P0.65mm
 SSOP-8 2.9 x2.8mm Pitch 0.65mm
 SSOP-8 2.95x2.8mm Pitch 0.65mm
@@ -81845,7 +81747,7 @@ Texas VSON-HR NoLead
 8
 Package_SON
 Texas_X2SON-4_1x1mm_P0.65mm
-X2SON 5 pin 1x1mm package (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]
+X2SON 5 pin 1x1mm package, DQN0004A (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]
 X2SON
 0
 13
@@ -85791,6 +85693,13 @@ Potentiometer vertical vishay
 0
 3
 3
+R0ohm
+RESC1005X40
+<b>RESISTOR</b>
+
+0
+2
+2
 RC0805FR_0710KL
 RC0805N_YAG
 
@@ -87023,6 +86932,13 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RMCF1206ZR0R00
+RESC3216X70N
+
+
+0
+2
+2
 RN10F1052CT5_50
 RES_RN10_CCE
 
@@ -87044,8 +86960,8 @@ RN10F1052CT5-50
 0
 2
 2
-RNCF0805TKY250R
-RESC2012X65N
+RR1220P-1030-D
+RESC2012X50N
 
 
 0
@@ -90681,6 +90597,13 @@ Symbol
 RoHS-Logo_40mm_SilkScreen
 Restriction of Hazardous Substances Directive Logo
 Logo RoHS
+0
+0
+0
+Symbol
+Smolhaj_Scale_0.1
+BLÅHAJ , smol 50cm nominal, 1:10 scale (56mm Snoot-Flosse), MPN 205.406.63 (https://www.ikea.com/gb/en/p/blahaj-soft-toy-baby-shark-20540663/)
+Ikea Smol Haj
 0
 0
 0
@@ -96243,6 +96166,34 @@ igbt diode module
 28
 28
 Transistor_Power_Module
+Infineon_AG-ECONO3
+35-lead TH, EconoPACK 3, similar(+0.5mm for Fab layer on Y) as Littelfuse_Package_W_XN2MM, https://www.infineon.com/dgdl/Infineon-FS200R12N3T7-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c80027ecd018083b6ce263011
+igbt diode module
+0
+35
+35
+Transistor_Power_Module
+Infineon_AG-ECONO3B
+41-lead TH, EconoPACK 3B, https://www.infineon.com/dgdl/Infineon-FS300R12N3E7-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c8900bb57018901d6e6f6124b
+igbt diode module
+0
+41
+41
+Transistor_Power_Module
+Infineon_EasyPACK-1B
+22-lead TH, EasyPACK 1B, https://www.infineon.com/dgdl/Infineon-FS30R06W1E3-DataSheet-v02_01-EN.pdf?fileId=db3a304313b8b5a60113cecd4c3102c1
+igbt diode module
+0
+22
+15
+Transistor_Power_Module
+Infineon_EasyPACK-1B_PressFIT
+22-lead TH, EasyPACK 1B, https://www.infineon.com/dgdl/Infineon-FS30R06W1E3-DataSheet-v02_01-EN.pdf?fileId=db3a304313b8b5a60113cecd4c3102c1
+igbt diode module
+0
+22
+15
+Transistor_Power_Module
 Infineon_EasyPIM-1B
 35-lead TH, EasyPIM 1B, https://www.infineon.com/dgdl/Infineon-FP10R06W1E3-DS-v02_01-en_de.pdf?fileId=db3a304412b407950112b43312285a63
 brifge rectifier igbt diode module
@@ -97096,27 +97047,6 @@ WL-SMCW_0805
 0
 2
 2
-Y1629400R000B9R
-RES_VFCP0805_VIS
-
-Y1629400R000B9R 
-0
-2
-2
-Y1629400R000B9R
-RES_VFCP0805_VIS-L
-
-Y1629400R000B9R 
-0
-2
-2
-Y1629400R000B9R
-RES_VFCP0805_VIS-M
-
-Y1629400R000B9R 
-0
-2
-2
 capacitor 10uF
 G-31_MUR
 
@@ -97156,6 +97086,69 @@ capacitor 22uF_22nF
 G-32_MUR-M
 
 GRM32ER61E226KE15L 
+0
+2
+2
+capacitor0.1uF
+G-155_MUR
+
+GRM155R71C104KA88J 
+0
+2
+2
+capacitor0.1uF
+G-155_MUR-L
+
+GRM155R71C104KA88J 
+0
+2
+2
+capacitor0.1uF
+G-155_MUR-M
+
+GRM155R71C104KA88J 
+0
+2
+2
+capacitor12pf
+CAPC1608X100N
+
+
+0
+2
+2
+capacitor22uF
+CAPC1608X100N
+
+
+0
+2
+2
+crystal
+XTAL_ABM12W-40.0000MHZ-6-B1U-T3
+
+
+0
+4
+4
+footprints
+IND_0603_TDK
+
+MLG0603P24NJT000 
+0
+2
+2
+footprints
+IND_0603_TDK-L
+
+MLG0603P24NJT000 
+0
+2
+2
+footprints
+IND_0603_TDK-M
+
+MLG0603P24NJT000 
 0
 2
 2
