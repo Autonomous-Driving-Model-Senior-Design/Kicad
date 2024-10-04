@@ -15205,7 +15205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/pj-040dh.pdf"
 			(at 55.88 49.53 0)
 			(effects
 				(font
