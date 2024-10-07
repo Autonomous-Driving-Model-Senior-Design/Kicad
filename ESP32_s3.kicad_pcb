@@ -39,6 +39,45 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -14325,7 +14364,7 @@
 		(at 199.31 118.98)
 		(descr "<B>WR-PHD </B><BR> 2.54mm Pin Header, 3 Pin")
 		(property "Reference" "J13"
-			(at -6.6096 -0.6625 0)
+			(at -5.31 0.02 0)
 			(layer "F.SilkS")
 			(uuid "66caf9bc-1da0-48fb-9891-3f93440120bf")
 			(effects
@@ -17813,7 +17852,7 @@
 		(at 199.27 114.98)
 		(descr "<B>WR-PHD </B><BR> 2.54mm Pin Header, 3 Pin")
 		(property "Reference" "J4"
-			(at -6.6096 -0.6625 0)
+			(at -5.02 -0.48 0)
 			(layer "F.SilkS")
 			(uuid "4180cffb-1769-447a-8ac9-364528474cc0")
 			(effects
@@ -20639,16 +20678,15 @@
 		)
 	)
 	(gr_rect
-		(start 105.46 55)
-		(end 205.46 130)
+		(start 105 55)
+		(end 205 130)
 		(stroke
-			(width 0.2)
+			(width 0.05)
 			(type default)
 		)
 		(fill none)
-		(layer "F.Cu")
-		(net 16)
-		(uuid "a6962add-8444-43ce-bceb-981494818654")
+		(layer "Edge.Cuts")
+		(uuid "d9898cd2-9cba-46c1-a3ff-49250bebc892")
 	)
 	(segment
 		(start 130 112.5)
@@ -20781,7 +20819,7 @@
 	(segment
 		(start 112.34 116.615)
 		(end 112.34 115.447)
-		(width 0.2)
+		(width 0.254)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "6e0fbcef-9d98-489e-af17-09cf6cc1273e")
@@ -20869,7 +20907,7 @@
 	(segment
 		(start 112.34 118.115)
 		(end 112.34 116.615)
-		(width 0.2)
+		(width 0.254)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "d8c52206-48d2-4a7a-ad1a-bfb04bf3552d")
@@ -20909,7 +20947,7 @@
 	(segment
 		(start 112.34 116.615)
 		(end 110.84 115.115)
-		(width 0.2)
+		(width 0.381)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "ed3d8a1f-9f57-4a32-baa3-aaf0e70f38d0")
@@ -21189,7 +21227,7 @@
 	(segment
 		(start 130.46 70.375)
 		(end 123.8325 70.375)
-		(width 0.2)
+		(width 0.254)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "3d0067cc-562b-40be-9175-8bbb0671f7a4")
@@ -21485,7 +21523,7 @@
 	(segment
 		(start 123.8325 70.375)
 		(end 119.9575 66.5)
-		(width 0.2)
+		(width 0.254)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "a9e98ac1-90b2-4a98-b869-58cbc4cd4ea5")
@@ -23165,7 +23203,7 @@
 	(segment
 		(start 124.36 64.5)
 		(end 119.9575 64.5)
-		(width 0.2)
+		(width 0.254)
 		(layer "F.Cu")
 		(net 19)
 		(uuid "5b0c1fb3-8f05-40be-859e-f574671ca00b")
@@ -23469,7 +23507,7 @@
 	(segment
 		(start 130.46 66)
 		(end 130.46 68.5)
-		(width 0.2)
+		(width 0.254)
 		(layer "F.Cu")
 		(net 35)
 		(uuid "8333e475-427b-484b-9fa6-3555a932a3e2")
@@ -24077,7 +24115,7 @@
 	(segment
 		(start 126.96 64)
 		(end 126.46 64.5)
-		(width 0.2)
+		(width 0.381)
 		(layer "F.Cu")
 		(net 71)
 		(uuid "5f70fbde-7283-470f-affb-2724dbaaca6b")
@@ -24085,7 +24123,7 @@
 	(segment
 		(start 130.46 64)
 		(end 130.46 58.5)
-		(width 0.2)
+		(width 0.381)
 		(layer "F.Cu")
 		(net 71)
 		(uuid "d50a2919-9b49-4b85-af44-76acffea4ec6")
@@ -24093,7 +24131,7 @@
 	(segment
 		(start 130.46 64)
 		(end 126.96 64)
-		(width 0.2)
+		(width 0.381)
 		(layer "F.Cu")
 		(net 71)
 		(uuid "e3dfafe3-812d-462e-97bc-cba7530a4725")
@@ -24101,7 +24139,7 @@
 	(segment
 		(start 130.46 58.5)
 		(end 133 58.5)
-		(width 0.2)
+		(width 0.381)
 		(layer "B.Cu")
 		(net 71)
 		(uuid "cb901842-8e25-4ba8-8ad1-c0e7d653e774")
