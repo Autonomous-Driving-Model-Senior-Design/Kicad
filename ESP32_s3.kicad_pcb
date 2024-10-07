@@ -20677,9 +20677,42 @@
 			(uuid "06a93cb7-4f98-490f-8c75-fe9f873487d0")
 		)
 	)
+	(gr_circle
+		(center 109 128)
+		(end 112 128)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "3db62b31-ec01-4c62-b8ca-f90f9bf470e2")
+	)
+	(gr_circle
+		(center 200 128)
+		(end 203 128)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "5a8006e2-31a7-4976-ad18-b5db780c5ec1")
+	)
+	(gr_circle
+		(center 200 57)
+		(end 203 57)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "c78d6a31-0e07-4652-95df-e7b81ae88659")
+	)
 	(gr_rect
-		(start 105 55)
-		(end 205 130)
+		(start 105 52)
+		(end 205 132)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -20687,6 +20720,41 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "d9898cd2-9cba-46c1-a3ff-49250bebc892")
+	)
+	(gr_circle
+		(center 109 57)
+		(end 112 57)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "f8a33cce-d0f1-47ee-82bd-4f35d2a5480d")
+	)
+	(gr_text "ECE 477 Team 1: Autonomous Driving Vehicle - Lane Wizard\nPCB V1\n"
+		(at 142 57 0)
+		(layer "F.SilkS")
+		(uuid "cc9ecd1a-f9e3-47e6-a7c0-9afdffb6b2de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Marvin Lim\nEvan Chen\nRyan Lin\nAndrew Huang"
+		(at 142 64 0)
+		(layer "F.SilkS")
+		(uuid "fcda8ed8-e79e-4233-88ed-94194599b9d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 130 112.5)
