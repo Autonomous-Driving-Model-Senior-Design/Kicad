@@ -9301,6 +9301,25 @@
 		)
 		(uuid "42de55f9-044b-4441-9fa2-98f57c3a78f7")
 	)
+	(text_box "Power Supply"
+		(exclude_from_sim no)
+		(at 48.26 31.75 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "91905d8e-402a-46ab-a15c-d17923b5e909")
+	)
 	(text_box "Connector\n"
 		(exclude_from_sim no)
 		(at 341.63 111.76 0)
