@@ -5297,6 +5297,12 @@
 		(uuid "2df36350-9b51-47e3-841d-18a241d5e1db")
 	)
 	(junction
+		(at 80.01 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "346bcc7f-6ab7-4793-a332-7d0cae4a294d")
+	)
+	(junction
 		(at 87.63 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5405,6 +5411,12 @@
 		(uuid "7999f556-a25a-45d6-8ca8-a0443676e71e")
 	)
 	(junction
+		(at 100.33 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "811985b8-fbd7-4e71-a560-f4c603c5fe30")
+	)
+	(junction
 		(at 58.42 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5439,6 +5451,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a743304-8415-4fbc-b8c3-ffd7db7f6cbe")
+	)
+	(junction
+		(at 107.95 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bbcd10b-73fb-41fd-9952-e65aff66f37c")
 	)
 	(junction
 		(at 58.42 226.06)
@@ -5543,6 +5561,12 @@
 		(uuid "b632112b-2d6e-43e4-80db-c139042c2471")
 	)
 	(junction
+		(at 110.49 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b64e2c0e-f54b-4e19-a631-f60bf1236ec7")
+	)
+	(junction
 		(at 302.26 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5601,12 +5625,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cccdc7b2-718f-4dbc-99f7-536cbaf167aa")
-	)
-	(junction
-		(at 110.49 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd86bf08-6149-4b4f-adf6-8fd3d7148fdd")
 	)
 	(junction
 		(at 369.57 224.79)
@@ -5992,6 +6010,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 226.06) (xy 110.49 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1228b3de-4603-44e4-aa6d-bebfe4e8480e")
+	)
+	(wire
+		(pts
 			(xy 194.31 74.93) (xy 194.31 78.74)
 		)
 		(stroke
@@ -6372,6 +6400,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 167.64) (xy 107.95 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395fd619-36a4-41dd-bb2a-61df58fed646")
+	)
+	(wire
+		(pts
+			(xy 100.33 168.91) (xy 107.95 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b175a1-94c4-4448-bd03-228898f119c1")
+	)
+	(wire
+		(pts
 			(xy 203.2 182.88) (xy 208.28 182.88)
 		)
 		(stroke
@@ -6492,6 +6540,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 151.13) (xy 107.95 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a3dbc1-5c46-4325-b098-e0331db5c7bf")
+	)
+	(wire
+		(pts
 			(xy 260.35 77.47) (xy 266.7 77.47)
 		)
 		(stroke
@@ -6559,6 +6617,16 @@
 			(type default)
 		)
 		(uuid "4dd27db8-6e18-4015-9585-7e4bc0f85e89")
+	)
+	(wire
+		(pts
+			(xy 110.49 228.6) (xy 110.49 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518cad69-9a12-49b5-9ded-24b2585b5872")
 	)
 	(wire
 		(pts
@@ -6699,6 +6767,16 @@
 			(type default)
 		)
 		(uuid "5da36c4d-1d35-4b2a-bce9-dc34b4a07be9")
+	)
+	(wire
+		(pts
+			(xy 80.01 226.06) (xy 80.01 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efa442a-5820-4c23-bb7e-bc5f564279b1")
 	)
 	(wire
 		(pts
@@ -6949,6 +7027,16 @@
 			(type default)
 		)
 		(uuid "780535af-8aec-4975-8ec0-d137670981e1")
+	)
+	(wire
+		(pts
+			(xy 107.95 158.75) (xy 107.95 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7820d8d9-9e43-40b0-b087-a827f9eac6f2")
 	)
 	(wire
 		(pts
@@ -7272,6 +7360,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 149.86) (xy 111.76 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f549cb-8efb-4210-8b89-c79b2638f8c5")
+	)
+	(wire
+		(pts
 			(xy 350.52 208.28) (xy 350.52 209.55)
 		)
 		(stroke
@@ -7482,7 +7580,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 149.86) (xy 111.76 149.86)
+			(xy 100.33 149.86) (xy 107.95 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7922,16 +8020,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 228.6) (xy 110.49 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7a6ba32-49b7-4b01-9f62-b6b4863b43c0")
-	)
-	(wire
-		(pts
 			(xy 203.2 185.42) (xy 208.28 185.42)
 		)
 		(stroke
@@ -8362,7 +8450,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 222.25) (xy 80.01 227.33)
+			(xy 80.01 222.25) (xy 80.01 226.06)
 		)
 		(stroke
 			(width 0)
@@ -8652,7 +8740,7 @@
 	)
 	(text_box "LED \n"
 		(exclude_from_sim no)
-		(at 106.68 144.78 0)
+		(at 105.41 142.24 0)
 		(size 5.08 3.81)
 		(stroke
 			(width 0)
@@ -10459,10 +10547,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1dd014b1-b64a-48ef-92d0-91ce42b6cedc")
 		(property "Reference" "C8"
-			(at 104.14 156.2099 0)
+			(at 101.854 153.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10471,7 +10558,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 104.14 158.7499 0)
+			(at 101.346 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,6 +11212,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 107.95 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39ebdfdd-f8af-4937-817f-259ec0e67bff")
+		(property "Reference" "DbLED2"
+			(at 109.982 161.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED blue"
+			(at 110.744 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "WL-SMCW_0805:WL-SMCW_0805"
+			(at 107.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080BS75000.pdf"
+			(at 107.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 107.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b888094-2aab-4ea8-9eb1-4be8cc1c15de")
+		)
+		(pin "1"
+			(uuid "7f916a24-d859-4633-8146-c104982193c4")
+		)
+		(instances
+			(project "ESP32_s3"
+				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
+					(reference "DbLED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 172.72 0)
 		(unit 1)
@@ -11411,6 +11567,75 @@
 			(project "ESP32_s3"
 				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4174b685-694d-4163-97a3-ce4b7f54e688")
+		(property "Reference" "RbLED2"
+			(at 110.49 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "250"
+			(at 110.49 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRCW080535K7FKEA:RESC2012X50N"
+			(at 106.172 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncf.pdf"
+			(at 107.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2452f4db-73de-4e1f-9a97-6b1774cc7bb1")
+		)
+		(pin "2"
+			(uuid "5f66eb9f-deaf-494a-a896-7106dd40c0cd")
+		)
+		(instances
+			(project "ESP32_s3"
+				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
+					(reference "RbLED2")
 					(unit 1)
 				)
 			)
