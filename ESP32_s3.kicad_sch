@@ -1612,125 +1612,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -5941,16 +5822,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 81.28) (xy 66.04 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04cd8855-4120-4b34-9c66-6ab077f57065")
-	)
-	(wire
-		(pts
 			(xy 224.79 72.39) (xy 214.63 72.39)
 		)
 		(stroke
@@ -7058,16 +6929,6 @@
 			(type default)
 		)
 		(uuid "756bd2e4-1c2c-40c1-9180-1b05a1a9f0ad")
-	)
-	(wire
-		(pts
-			(xy 63.5 74.93) (xy 66.04 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76350575-c1ac-42bc-931a-7057217b3755")
 	)
 	(wire
 		(pts
@@ -9344,28 +9205,6 @@
 		)
 		(uuid "fc660270-8945-433f-bda6-dfddc4385003")
 	)
-	(global_label "+5V"
-		(shape input)
-		(at 63.5 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d29ab4a-11e3-4c49-afd8-1b6c17c29718")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.6443 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO12"
 		(shape input)
 		(at 203.2 203.2 180)
@@ -9830,6 +9669,28 @@
 	)
 	(global_label "+5V"
 		(shape input)
+		(at 71.12 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6f81318-6255-45e3-bcbe-08c5f4de0948")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.2643 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
 		(at 52.07 149.86 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10130,6 +9991,76 @@
 			(project "ESP32_s3"
 				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 76.2 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09fd3678-45c9-498f-8d01-62f1fe104cdd")
+		(property "Reference" "J6"
+			(at 77.47 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "jetson nano"
+			(at 77.978 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "01x02connector:CONN_61300211121_WRE"
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39f5b7c7-aab0-4e50-8959-809763aaf97f")
+		)
+		(pin "2"
+			(uuid "9c622eb5-03a4-431a-b616-4973e2b39ee7")
+		)
+		(instances
+			(project "ESP32_s3"
+				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10655,6 +10586,73 @@
 			(project "ESP32_s3"
 				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20e93ddd-09e9-4270-989f-8eb335205e31")
+		(property "Reference" "#PWR02"
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ab520cb-d8fb-4929-ac2a-9bafc190885a")
+		)
+		(instances
+			(project "ESP32_s3"
+				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -13066,7 +13064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMASeries_LTF"
+		(property "Footprint" "SMAJ10A:SMASeries_LTF"
 			(at 74.93 49.53 0)
 			(effects
 				(font
@@ -13194,71 +13192,6 @@
 			(project "ESP32_s3"
 				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 71.12 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97a9f3ee-293a-4c17-8570-6507335cf04d")
-		(property "Reference" "J2"
-			(at 70.485 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "jetson nano"
-			(at 78.994 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 71.12 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea943186-1b1e-4509-a5b3-b076ec1b7acf")
-		)
-		(instances
-			(project "ESP32_s3"
-				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14231,71 +14164,6 @@
 			(project "ESP32_s3"
 				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
 					(reference "Css1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 71.12 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bcdc89eb-3b56-492e-8f0f-6cbf2bfb2af3")
-		(property "Reference" "J5"
-			(at 70.485 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "jetson nano"
-			(at 78.994 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 71.12 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ab1361f-261c-46ce-8ea9-fe514b596128")
-		)
-		(instances
-			(project "ESP32_s3"
-				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -15710,73 +15578,6 @@
 			(project "ESP32_s3"
 				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eaaf6814-2721-40f0-be2b-37439759414f")
-		(property "Reference" "#PWR02"
-			(at 57.15 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a787b95-9b46-447a-850b-6c0ea35d0983")
-		)
-		(instances
-			(project "ESP32_s3"
-				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
