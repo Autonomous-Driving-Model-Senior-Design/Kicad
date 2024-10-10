@@ -1,4 +1,25 @@
-23837902446271712
+23890302950639929
+08053C104JAZ2A
+CAPC2012X94N
+
+
+0
+2
+2
+08053C104KAT2A
+CAPC2012X94N
+
+
+0
+2
+2
+08055C822KAT2A
+CAPC2012X94N
+
+
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +34,20 @@ audio belton reverb
 0
 7
 7
+B540C_13_F
+DIOM6959X245N
+
+
+0
+2
+2
+BRC2012T4R7MD
+IND_TAIYO_BRC2012_TAY
+
+BRC2012T4R7MD 
+0
+2
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -2379,27 +2414,6 @@ SW PUSH SMALL Tactile C&K
 0
 4
 2
-Button_Switch_THT
-SW_XKB_DM1-16UC-1
-1A 30V SPDT Micro Switch rated for one million cycles, W12.7xD5.7xH6.6, https://www.helloxkb.com/public/images/pdf/DMX-XXXC-X.pdf
-SPDT endstop limit switch clockwise hook lever XKB DM1-16UC-1
-0
-3
-3
-Button_Switch_THT
-SW_XKB_DM1-16UD-1
-1A 30V SPDT Micro Switch rated for one million cycles, W12.7xD5.7xH6.6, https://www.helloxkb.com/public/images/pdf/DMX-XXXD-X.pdf
-SPDT endstop limit switch anti-clockwise hook lever XKB DM1-16UD-1
-0
-3
-3
-Button_Switch_THT
-SW_XKB_DM1-16UP-1
-1A 30V SPDT Micro Switch rated for one million cycles, W12.7xD5.7xH6.6, https://www.helloxkb.com/public/images/pdf/DMX-XXXP-X.pdf
-SPDT endstop limit switch vertical hook lever XKB DM1-16UP-1
-0
-3
-3
 Buzzer_Beeper
 Buzzer_12x9.5RM7.6
 Generic Buzzer, D12mm height 9.5mm with RM7.6mm
@@ -2565,6 +2579,153 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+C0805C106J8RACAUTO
+CAPC230145_145N_KEM
+
+C0805C106J8RACAUTO 
+0
+2
+2
+C0805C106J8RACAUTO
+CAPC230145_145N_KEM-L
+
+C0805C106J8RACAUTO 
+0
+2
+2
+C0805C106J8RACAUTO
+CAPC230145_145N_KEM-M
+
+C0805C106J8RACAUTO 
+0
+2
+2
+C0805C220K3GACTU
+CAPC220145_90N_KEM
+
+C0805C220K3GACTU 
+0
+2
+2
+C0805C220K3GACTU
+CAPC220145_90N_KEM-L
+
+C0805C220K3GACTU 
+0
+2
+2
+C0805C220K3GACTU
+CAPC220145_90N_KEM-M
+
+C0805C220K3GACTU 
+0
+2
+2
+C0805C561K5HAC7800
+CAPC2012X88N
+
+
+0
+2
+2
+C2012C0G1E223J125AA
+CAPC2012X145N
+
+
+0
+2
+2
+CGA4C2C0G1H472J060AA
+CAPC2012X75N
+
+
+0
+2
+2
+CL21C821JBCNNNC
+CAP_CL21_SAM
+
+CL21C821JBCNNNC 
+0
+2
+2
+CL21C821JBCNNNC
+CAP_CL21_SAM-L
+
+CL21C821JBCNNNC 
+0
+2
+2
+CL21C821JBCNNNC
+CAP_CL21_SAM-M
+
+CL21C821JBCNNNC 
+0
+2
+2
+CL32B106KBJNNWE
+ANTC3225X280N
+
+
+0
+2
+2
+CRCW080510K0FKEA
+RESC2012X50N
+
+
+0
+2
+2
+CRCW080535K7FKEA
+RESC2012X50N
+
+
+0
+2
+2
+CRCW080560K4FKEA
+RESC2012X50N
+
+
+0
+2
+2
+CRCW080586K6FKEA
+RESC2012X50N
+
+
+0
+2
+2
+CRCW0805107KFKEA
+RESC2012X50N
+
+
+0
+2
+2
+CRCW0805261KFKEA
+RESC2012X50N
+
+
+0
+2
+2
+CRCW0805909RFKEA
+RESC2012X50N
+
+
+0
+2
+2
+CRGCQ0805F220R
+RESC2012X65N
+
+
 0
 2
 2
@@ -8592,13 +8753,6 @@ Connector_Coaxial
 SMA_Amphenol_132291_Vertical
 https://www.amphenolrf.com/downloads/dl/file/id/3222/product/2918/132291_customer_drawing.pdf
 SMA THT Female Jack Vertical Bulkhead
-0
-5
-2
-Connector_Coaxial
-SMA_BAT_Wireless_BWSMA-KWE-Z001
-BAT Wireless BWSMA-KWE-Z00 https://www.lcsc.com/datasheet/lcsc_datasheet_2310171703_BAT-WIRELESS-BWSMA-KWE-Z001_C496551.pdf
-SMA THT Female Jack Horizontal
 0
 5
 2
@@ -49735,15 +49889,8 @@ USB Micro-B horizontal SMD
 11
 6
 Connector_USB
-USB_Micro-B_Amphenol_10118194-0001LF_Horizontal
-USB Micro-B receptacle, horizontal, SMD, 10118194, 10118194-0001LF, 10118194-0002LF, 10118194-0101LF, 10118194-1001LF, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf
-USB Micro B horizontal SMD
-0
-17
-6
-Connector_USB
 USB_Micro-B_Amphenol_10118194_Horizontal
-USB Micro-B receptacle, horizontal, SMD, 10118194, 10118194-0011LF, 10118194-0012LF, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf
+USB Micro-B receptacle, horizontal, SMD, 10118194, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf
 USB Micro B horizontal SMD
 0
 17
@@ -52685,13 +52832,6 @@ Converter_ACDC
 Converter_ACDC_Recom_RAC20-xxSK_THT
 Recom RAC20-xxSK https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf#page=6 Rev. 6/2020
 Recom RAC20-xxSK
-0
-4
-4
-Converter_ACDC
-Converter_ACDC_TRACO_TMF_051xx_THT
-ACDC-Converter, TRACO, TMF 051xx, 5W, Rev. August 26. 2024 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tmf05.pdf)
-ACDC-Converter TRACO TMF05 THT 5W
 0
 4
 4
@@ -56692,6 +56832,69 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EMK212B7105KG-T
+CAPC2012X135N
+
+
+0
+2
+2
+EMK212B7105KG_T
+cap_EMK212B7105KG-T_TAY
+
+EMK212B7105KG-T 
+0
+2
+2
+EMK212B7105KG_T
+cap_EMK212B7105KG-T_TAY-L
+
+EMK212B7105KG-T 
+0
+2
+2
+EMK212B7105KG_T
+cap_EMK212B7105KG-T_TAY-M
+
+EMK212B7105KG-T 
+0
+2
+2
+ERJ_6ENF1183V
+RESC2012X70N
+
+
+0
+2
+2
+ERJ_6ENF6043V
+RES_ERJ6ENF6043V
+
+
+0
+2
+2
+FSV360FP
+SOD-123EP_425AC_ONS
+
+FSV360FP 
+0
+2
+2
+FSV360FP
+SOD-123EP_425AC_ONS-L
+
+FSV360FP 
+0
+2
+2
+FSV360FP
+SOD-123EP_425AC_ONS-M
+
+FSV360FP 
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -57728,6 +57931,48 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+GRM21BR60G107ME11K
+CAPC2012X145N
+
+
+0
+2
+2
+GRM21BR61E106MA73L
+CAPC2012X140N
+
+
+0
+2
+2
+GRM32ER61C476KE15L
+G-32_MUR
+
+GRM32ER61C476KE15L 
+0
+2
+2
+GRM32ER61C476KE15L
+G-32_MUR-L
+
+GRM32ER61C476KE15L 
+0
+2
+2
+GRM32ER61C476KE15L
+G-32_MUR-M
+
+GRM32ER61C476KE15L 
+0
+2
+2
+GRM216R71E561KA01D
+CAPC2012X70N
+
+
+0
+2
+2
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -57868,6 +58113,13 @@ heatsink
 0
 0
 0
+IRLML6344TRPBF
+SOT95P240X112-3N
+
+
+0
+3
+3
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -59221,91 +59473,91 @@ Inductor xal
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-102
-Inductor, Coilcraft, XAL7030-102, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-102, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-103
-Inductor, Coilcraft, XAL7030-103, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-103, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-152
-Inductor, Coilcraft, XAL7030-152, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-152, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-161
-Inductor, Coilcraft, XAL7030-161, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-161, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-222
-Inductor, Coilcraft, XAL7030-222, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-222, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-272
-Inductor, Coilcraft, XAL7030-272, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-272, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-301
-Inductor, Coilcraft, XAL7030-301, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-301, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-332
-Inductor, Coilcraft, XAL7030-332, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-332, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-472
-Inductor, Coilcraft, XAL7030-472, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-472, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-562
-Inductor, Coilcraft, XAL7030-562, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-562, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-601
-Inductor, Coilcraft, XAL7030-601, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-601, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-682
-Inductor, Coilcraft, XAL7030-682, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-682, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-822
-Inductor, Coilcraft, XAL7030-822, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor, Coilcraft, XAL7030-822, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
 Inductor xal
 0
 2
@@ -64693,6 +64945,20 @@ Yellow 5381 Series LED
 0
 2
 2
+LMK212B7105KG-T
+CAPC2012X135N
+
+
+0
+2
+2
+MLZ2012M1R0HT000
+INDC2012X145N
+
+
+0
+2
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -69398,13 +69664,6 @@ BGA 113 0.5
 113
 113
 Package_BGA
-Texas_PicoStar_BGA-4_0.758x0.758mm_Layout2x2_P0.4mm
-Texas Instruments PicoStar - 0.15 mm max height, 0.758x0.758mm, 4 Ball, 2x2 Layout, 0.4mm Pitch, https://www.ti.com/lit/ds/symlink/tmp114.pdf
-BGA 4 0.4 PicoStar
-0
-4
-4
-Package_BGA
 Texas_YFP0020_DSBGA-20_1.56x1.96mm_Layout4x5_P0.4mm
 Texas Instruments, YFP0020, DSBGA-20, area grid, 1.588x1.988mm, 20 Ball, 4x5 Layout, 0.4mm Pitch, https://www.ti.com/lit/ds/symlink/txs0206.pdf
 BGA 20 0.4
@@ -72625,13 +72884,6 @@ QFN NoLead
 43
 29
 Package_DFN_QFN
-QFN-28-1EP_4x4mm_P0.45mm_EP2.6x2.6mm
-QFN, 28 Pin (http://www.everest-semi.com/pdf/ES8388%20DS.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-33
-29
-Package_DFN_QFN
 QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm
 QFN, 28 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/3555fe.pdf#page=32), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
@@ -73208,20 +73460,6 @@ QFN NoLead
 Package_DFN_QFN
 QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias
 QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-91
-49
-Package_DFN_QFN
-QFN-48-1EP_7x7mm_P0.5mm_EP5.7x5.7mm
-QFN, 48 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_48_05-08-1704.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-65
-49
-Package_DFN_QFN
-QFN-48-1EP_7x7mm_P0.5mm_EP5.7x5.7mm_ThermalVias
-QFN, 48 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_48_05-08-1704.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 91
@@ -80206,13 +80444,6 @@ SSO Stretched SO SOIC Pitch 1.27
 8
 8
 Package_SO
-SSOP-4_4.4x2.6mm_P1.27mm
-SSOP, 4 Pin (https://www.vishay.com/docs/83465/vos618a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SSOP SO
-0
-4
-4
-Package_SO
 SSOP-8_2.95x2.8mm_P0.65mm
 SSOP-8 2.9 x2.8mm Pitch 0.65mm
 SSOP-8 2.95x2.8mm Pitch 0.65mm
@@ -81614,7 +81845,7 @@ Texas VSON-HR NoLead
 8
 Package_SON
 Texas_X2SON-4_1x1mm_P0.65mm
-X2SON 5 pin 1x1mm package, DQN0004A (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]
+X2SON 5 pin 1x1mm package (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]
 X2SON
 0
 13
@@ -85560,6 +85791,48 @@ Potentiometer vertical vishay
 0
 3
 3
+RC0805FR_0710KL
+RC0805N_YAG
+
+RC0805FR-0710KL 
+0
+2
+2
+RC0805FR_0710KL
+RC0805N_YAG-L
+
+RC0805FR-0710KL 
+0
+2
+2
+RC0805FR_0710KL
+RC0805N_YAG-M
+
+RC0805FR-0710KL 
+0
+2
+2
+RC0805FR_07750RL
+RESC2012X60N
+
+
+0
+2
+2
+RC0805JR_07360RL
+RESC2012X60N
+
+
+0
+2
+2
+RC1206FR_0730KL
+RESC3116X65N
+
+
+0
+2
+2
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -86750,6 +87023,48 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RN10F1052CT5_50
+RES_RN10_CCE
+
+RN10F1052CT5-50 
+0
+2
+2
+RN10F1052CT5_50
+RES_RN10_CCE-L
+
+RN10F1052CT5-50 
+0
+2
+2
+RN10F1052CT5_50
+RES_RN10_CCE-M
+
+RN10F1052CT5-50 
+0
+2
+2
+RNCF0805TKY250R
+RESC2012X65N
+
+
+0
+2
+2
+RT0805BRD0792KL
+RESC2012X60N
+
+
+0
+2
+2
+RT0805BRD07164KL
+RESC2012X60N
+
+
+0
+2
+2
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -88976,6 +89291,41 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SRN6045_4R7Y
+IND_BOURNS_SRN6045
+
+SRN6045-4R7Y 
+0
+2
+2
+SRR0804_120M
+IND_BOURNS_SRR0804
+
+SRR0804-120M 
+0
+2
+2
+SS14FL
+SOD-123_ONS
+
+SS14FL 
+0
+2
+2
+SS14FL
+SOD-123_ONS-L
+
+SS14FL 
+0
+2
+2
+SS14FL
+SOD-123_ONS-M
+
+SS14FL 
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -90335,13 +90685,6 @@ Logo RoHS
 0
 0
 Symbol
-Smolhaj_Scale_0.1
-BLÅHAJ , smol 50cm nominal, 1:10 scale (56mm Snoot-Flosse), MPN 205.406.63 (https://www.ikea.com/gb/en/p/blahaj-soft-toy-baby-shark-20540663/)
-Ikea Smol Haj
-0
-0
-0
-Symbol
 Symbol_Attention_Triangle_8x7mm_Copper
 Symbol, Attention, 8x7mm, copper layer
 warning graphic
@@ -90642,6 +90985,41 @@ Logo WEEE
 0
 0
 0
+TPS55330RTET
+RTE0016C
+
+TPS55330RTET 
+0
+22
+22
+TPS55330RTET
+RTE0016C_NV
+
+TPS55330RTET 
+0
+17
+17
+TPS61087DSCR
+DSC0010A
+
+TPS61087DSCR 
+0
+11
+11
+TPS61088RHLR
+RHL0020A
+
+TPS61088RHLR 
+0
+25
+22
+TPS61170DRVR
+SON65P200X200X80-7N
+
+
+0
+7
+7
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -95865,34 +96243,6 @@ igbt diode module
 28
 28
 Transistor_Power_Module
-Infineon_AG-ECONO3
-35-lead TH, EconoPACK 3, similar(+0.5mm for Fab layer on Y) as Littelfuse_Package_W_XN2MM, https://www.infineon.com/dgdl/Infineon-FS200R12N3T7-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c80027ecd018083b6ce263011
-igbt diode module
-0
-35
-35
-Transistor_Power_Module
-Infineon_AG-ECONO3B
-41-lead TH, EconoPACK 3B, https://www.infineon.com/dgdl/Infineon-FS300R12N3E7-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c8900bb57018901d6e6f6124b
-igbt diode module
-0
-41
-41
-Transistor_Power_Module
-Infineon_EasyPACK-1B
-22-lead TH, EasyPACK 1B, https://www.infineon.com/dgdl/Infineon-FS30R06W1E3-DataSheet-v02_01-EN.pdf?fileId=db3a304313b8b5a60113cecd4c3102c1
-igbt diode module
-0
-22
-15
-Transistor_Power_Module
-Infineon_EasyPACK-1B_PressFIT
-22-lead TH, EasyPACK 1B, https://www.infineon.com/dgdl/Infineon-FS30R06W1E3-DataSheet-v02_01-EN.pdf?fileId=db3a304313b8b5a60113cecd4c3102c1
-igbt diode module
-0
-22
-15
-Transistor_Power_Module
 Infineon_EasyPIM-1B
 35-lead TH, EasyPIM 1B, https://www.infineon.com/dgdl/Infineon-FP10R06W1E3-DS-v02_01-en_de.pdf?fileId=db3a304412b407950112b43312285a63
 brifge rectifier igbt diode module
@@ -96736,6 +97086,76 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+WL-SMCW_0805
+WL-SMCW_0805
+<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0805, SMT, 2pins<Br>2x1.25x0.7mm(LXWXH)
+
+0
+2
+2
+Y1629400R000B9R
+RES_VFCP0805_VIS
+
+Y1629400R000B9R 
+0
+2
+2
+Y1629400R000B9R
+RES_VFCP0805_VIS-L
+
+Y1629400R000B9R 
+0
+2
+2
+Y1629400R000B9R
+RES_VFCP0805_VIS-M
+
+Y1629400R000B9R 
+0
+2
+2
+capacitor 10uF
+G-31_MUR
+
+GRM31CR71E106KA12L 
+0
+2
+2
+capacitor 10uF
+G-31_MUR-L
+
+GRM31CR71E106KA12L 
+0
+2
+2
+capacitor 10uF
+G-31_MUR-M
+
+GRM31CR71E106KA12L 
+0
+2
+2
+capacitor 22uF_22nF
+G-32_MUR
+
+GRM32ER61E226KE15L 
+0
+2
+2
+capacitor 22uF_22nF
+G-32_MUR-L
+
+GRM32ER61E226KE15L 
+0
+2
+2
+capacitor 22uF_22nF
+G-32_MUR-M
+
+GRM32ER61E226KE15L 
 0
 2
 2
