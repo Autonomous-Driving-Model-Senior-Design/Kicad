@@ -5360,6 +5360,12 @@
 		(uuid "3c43b301-7aa7-43fe-9129-997704f66424")
 	)
 	(junction
+		(at 350.52 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4070af1f-ce1a-433f-b710-ebdcf67c7224")
+	)
+	(junction
 		(at 260.35 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5370,12 +5376,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d91c33e-2049-465c-ac40-89e9e5feb806")
-	)
-	(junction
-		(at 350.52 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4db13a31-bb87-46ad-8f78-e80f0630a888")
 	)
 	(junction
 		(at 289.56 97.79)
@@ -6701,16 +6701,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 227.33) (xy 369.57 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57423b97-94f0-4f69-8309-b68e52830532")
-	)
-	(wire
-		(pts
 			(xy 248.92 193.04) (xy 254 193.04)
 		)
 		(stroke
@@ -7271,6 +7261,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 227.33) (xy 369.57 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6bce66-dea0-4a62-ad8a-bb352153401e")
+	)
+	(wire
+		(pts
 			(xy 294.64 35.56) (xy 294.64 20.32)
 		)
 		(stroke
@@ -7548,6 +7548,16 @@
 			(type default)
 		)
 		(uuid "a1e963d7-dd6f-4990-82d7-abc4317bba75")
+	)
+	(wire
+		(pts
+			(xy 350.52 203.2) (xy 350.52 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b75b86-23d0-422d-8d9a-a7fbb7777532")
 	)
 	(wire
 		(pts
@@ -8261,16 +8271,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 203.2) (xy 350.52 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f8b5c3-7869-4bbe-aa8a-36bbe3422ea6")
-	)
-	(wire
-		(pts
 			(xy 73.66 157.48) (xy 73.66 158.75)
 		)
 		(stroke
@@ -8441,16 +8441,6 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 207.01) (xy 364.49 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6554e45-0c4a-4578-8aee-73f28807da05")
-	)
-	(wire
-		(pts
 			(xy 347.98 60.96) (xy 344.17 60.96)
 		)
 		(stroke
@@ -8598,6 +8588,16 @@
 			(type default)
 		)
 		(uuid "f41a709a-ad3a-4e03-96aa-695dd90c2626")
+	)
+	(wire
+		(pts
+			(xy 364.49 207.01) (xy 364.49 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44a3326-cbe8-4980-b014-82015a577522")
 	)
 	(wire
 		(pts
@@ -9464,7 +9464,7 @@
 		)
 		(uuid "fc660270-8945-433f-bda6-dfddc4385003")
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
 		(at 63.5 74.93 180)
 		(fields_autoplaced yes)
@@ -9476,7 +9476,7 @@
 		)
 		(uuid "0d29ab4a-11e3-4c49-afd8-1b6c17c29718")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.2167 74.93 0)
+			(at 56.6443 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9596,7 +9596,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
 		(at 368.3 227.33 180)
 		(fields_autoplaced yes)
@@ -9608,7 +9608,7 @@
 		)
 		(uuid "25f92a3d-9a35-42db-b5ee-66c8481f5a2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.0167 227.33 0)
+			(at 361.4443 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,7 +9640,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
 		(at 80.01 222.25 0)
 		(fields_autoplaced yes)
@@ -9652,7 +9652,7 @@
 		)
 		(uuid "329f2e81-419c-4bed-9629-bcaf02f51f65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.2933 222.25 0)
+			(at 86.8657 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9662,7 +9662,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
 		(at 96.52 49.53 0)
 		(fields_autoplaced yes)
@@ -9674,7 +9674,7 @@
 		)
 		(uuid "47aba049-ad33-458d-b07f-40958bbc5fa2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8033 49.53 0)
+			(at 103.3757 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9706,7 +9706,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
 		(at 364.49 207.01 0)
 		(fields_autoplaced yes)
@@ -9718,7 +9718,7 @@
 		)
 		(uuid "74e9ae07-e0d9-4b76-8a78-54ff733990e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 369.7733 207.01 0)
+			(at 371.3457 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9750,6 +9750,28 @@
 			)
 		)
 	)
+	(global_label "GPIO13"
+		(shape input)
+		(at 203.2 205.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7be27c8a-c5a4-43c8-8683-094cad80e571")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.3205 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO10"
 		(shape input)
 		(at 203.2 198.12 180)
@@ -9772,7 +9794,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
 		(at 125.73 36.83 180)
 		(fields_autoplaced yes)
@@ -9784,7 +9806,7 @@
 		)
 		(uuid "a224cc19-4d4b-4705-b53f-039c2d05cbb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.4467 36.83 0)
+			(at 118.8743 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9926,7 +9948,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
 		(at 52.07 149.86 180)
 		(fields_autoplaced yes)
@@ -9938,7 +9960,7 @@
 		)
 		(uuid "fe85eeed-1739-4dbc-8565-677c7fc54a39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.7867 149.86 0)
+			(at 45.2143 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
