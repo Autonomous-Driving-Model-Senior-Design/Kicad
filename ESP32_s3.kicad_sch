@@ -6491,6 +6491,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 78.74) (xy 60.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0731f0-7be7-4f48-bf09-512d5bc4db60")
+	)
+	(wire
+		(pts
 			(xy 95.25 49.53) (xy 92.71 49.53)
 		)
 		(stroke
@@ -9538,6 +9548,28 @@
 			)
 		)
 	)
+	(global_label "+5V"
+		(shape input)
+		(at 60.96 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a945394-8dc1-4cbd-a158-2193d2458a25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.8157 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO10"
 		(shape input)
 		(at 119.38 232.41 0)
@@ -10046,28 +10078,6 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 71.12 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6f81318-6255-45e3-bcbe-08c5f4de0948")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.2643 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+5V"
-		(shape input)
 		(at 52.07 149.86 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10368,76 +10378,6 @@
 			(project "ESP32_s3"
 				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 76.2 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09fd3678-45c9-498f-8d01-62f1fe104cdd")
-		(property "Reference" "J6"
-			(at 77.47 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "jetson nano"
-			(at 77.978 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "01x02connector:CONN_61300211121_WRE"
-			(at 76.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 76.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39f5b7c7-aab0-4e50-8959-809763aaf97f")
-		)
-		(pin "2"
-			(uuid "9c622eb5-03a4-431a-b616-4973e2b39ee7")
-		)
-		(instances
-			(project "ESP32_s3"
-				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10893,73 +10833,6 @@
 			(project "ESP32_s3"
 				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20e93ddd-09e9-4270-989f-8eb335205e31")
-		(property "Reference" "#PWR02"
-			(at 64.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ab520cb-d8fb-4929-ac2a-9bafc190885a")
-		)
-		(instances
-			(project "ESP32_s3"
-				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -13091,6 +12964,130 @@
 		)
 	)
 	(symbol
+		(lib_id "54-00127:54-00127")
+		(at 55.88 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e293387-e171-4313-9b64-c4b42be6f21d")
+		(property "Reference" "J2"
+			(at 62.23 72.7102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "54-00127"
+			(at 62.23 75.2502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "54_00127:TENSILITY_54-00127"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.snapeda.com/parts/54-00127/Tensility%20International%20Corp/datasheet/"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "54-00127"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.3mm"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TENSILITY"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "184a58c0-2921-48aa-a0f3-dfc1b99dc6b3")
+		)
+		(pin "A"
+			(uuid "b8d9f5e5-d6e4-4374-8553-eec9961c2ca7")
+		)
+		(pin "B"
+			(uuid "21313588-89df-47c2-9c78-36fb3c0f65e6")
+		)
+		(instances
+			(project "ESP32_s3"
+				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 270.51 44.45 0)
 		(unit 1)
@@ -15209,6 +15206,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 60.96 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3c5991a-b08e-49cc-9e28-59a865eaf1a5")
+		(property "Reference" "#PWR02"
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf0fe3e1-1f6f-47f8-9c26-f13d7c77c6ae")
+		)
+		(instances
+			(project "ESP32_s3"
+				(path "/17b1a26b-4dd3-45da-ac9f-9f7d4372170f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 266.7 215.9 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16510,7 +16574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "nettist:NetTie-2_SMD_Pad2.0mm"
 			(at 114.3 276.86 0)
 			(effects
 				(font
