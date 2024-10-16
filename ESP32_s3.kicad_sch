@@ -13963,7 +13963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMAJ10A:SMASeries_LTF"
+		(property "Footprint" "footprints:SMASeries_LTF"
 			(at 74.93 49.53 0)
 			(effects
 				(font
